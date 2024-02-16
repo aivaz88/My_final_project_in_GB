@@ -1,6 +1,6 @@
 from .models import User, Retreat, Feedback, Favorite, Booking, Payment
-from .exceptions import LoginError, PasswordError, RegisterError, UserAttributesError, \
-    RetreatAttributesError, AttributesEnteringError
+from .exceptions import LoginError, PasswordError, RegisterError, UserAttributesError, RetreatAttributesError, \
+    AttributesEnteringError
 import logging
 
 logger = logging.getLogger(__name__)
